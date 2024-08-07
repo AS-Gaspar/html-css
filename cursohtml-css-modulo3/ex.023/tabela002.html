@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: red;
+            color: white;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: rgba(2, 2, 255, 0.631);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Uso de tabelas grandes!
+    </h1>
+
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">39 444 547</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">3 998 234</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habietantes</th>
+                <td class="num"><strong>210 147 000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores tempore voluptatum, accusamus enim omnis expedita officiis et consectetur atque nihil. Dicta incidunt, eum nihil vitae provident rerum nesciunt ab? Quos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas cumque illum deserunt omnis aliquam temporibus. Earum dolorem eaque amet necessitatibus iure officia architecto voluptatem, quisquam doloremque tenetur explicabo expedita. Minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia recusandae maxime voluptatibus! Sed laboriosam est tempora enim rerum, nisi iusto laborum nemo commodi porro vel, inventore provident corrupti in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab est totam cupiditate officia aut sapiente animi itaque placeat autem debitis consectetur iusto corporis accusantium similique, veritatis corrupti hic velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore harum dignissimos molestias veritatis in eum voluptates. Harum aliquid error impedit distinctio, repellat voluptatem deleniti quas esse expedita aliquam fugiat! Corporis? lko
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda a dolor iure est quibusdam excepturi voluptatum molestiae consequuntur. Error tempore dolor in quis, doloribus harum vero quidem ex ipsa animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corporis eaque nisi accusamus dolores vitae impedit, exercitationem necessitatibus ea quaerat optio eum maiores vero molestias possimus excepturi aperiam quia quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veniam beatae molestias laboriosam inventore eaque adipisci id voluptas labore magni hic velit, cupiditate fugiat iure? Et repellat facilis rerum delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus quidem, qui dolor ratione ducimus fugit quae maiores itaque accusamus eaque fuga nostrum explicabo, soluta ea molestias at. Architecto, laudantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam odio cum vero animi odit earum repudiandae, adipisci blanditiis magni. Aut nihil tenetur nulla impedit libero cupiditate nobis beatae porro vitae.
+    </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores tempore voluptatum, accusamus enim omnis expedita officiis et consectetur atque nihil. Dicta incidunt, eum nihil vitae provident rerum nesciunt ab? Quos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas cumque illum deserunt omnis aliquam temporibus. Earum dolorem eaque amet necessitatibus iure officia architecto voluptatem, quisquam doloremque tenetur explicabo expedita. Minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia recusandae maxime voluptatibus! Sed laboriosam est tempora enim rerum, nisi iusto laborum nemo commodi porro vel, inventore provident corrupti in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab est totam cupiditate officia aut sapiente animi itaque placeat autem debitis consectetur iusto corporis accusantium similique, veritatis corrupti hic velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore harum dignissimos molestias veritatis in eum voluptates. Harum aliquid error impedit distinctio, repellat voluptatem deleniti quas esse expedita aliquam fugiat! Corporis? lko
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda a dolor iure est quibusdam excepturi voluptatum molestiae consequuntur. Error tempore dolor in quis, doloribus harum vero quidem ex ipsa animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corporis eaque nisi accusamus dolores vitae impedit, exercitationem necessitatibus ea quaerat optio eum maiores vero molestias possimus excepturi aperiam quia quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veniam beatae molestias laboriosam inventore eaque adipisci id voluptas labore magni hic velit, cupiditate fugiat iure? Et repellat facilis rerum delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus quidem, qui dolor ratione ducimus fugit quae maiores itaque accusamus eaque fuga nostrum explicabo, soluta ea molestias at. Architecto, laudantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam odio cum vero animi odit earum repudiandae, adipisci blanditiis magni. Aut nihil tenetur nulla impedit libero cupiditate nobis beatae porro vitae.
+    </p>
+</body>
+</html>
